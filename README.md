@@ -1,2 +1,5 @@
 # Trabalho-de-Web3
-Grupo: Leandro duarte kavgias 
+Grupo: Leandro Duarte Kavgias 
+       Gabriel Plauska
+       Jenni
+      
