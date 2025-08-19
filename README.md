@@ -1,5 +1,5 @@
 # Trabalho-de-Web3
 Grupo: Leandro Duarte Kavgias 
        Gabriel Plauska
-       Jenni
-       Carlos
+       Jenni 
+       Carlos Gabriel
