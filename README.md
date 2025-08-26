@@ -1,7 +1,7 @@
 # Trabalho-de-Web3
-Grupo: Leandro Duarte Kavgias 
-       Gabriel Plauska
-       Jennifer Bastos
+Grupo: Leandro Duarte Kavgias, 
+       Gabriel Plauska,
+       Jennifer Bastos e 
        Carlos Gabriel
        
 1.1 Objetivo .............................................................................................................
