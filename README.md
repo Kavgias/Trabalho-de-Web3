@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div align= "center">
 
 ## 🎨 **TrabalhowebIII** 
@@ -139,6 +140,8 @@ Contribuições são sempre bem-vindas!
 
 ---
 =======
+=======
+>>>>>>> 7eac797fb8e31fd0e9b4c5c6dac6f487a20e9c7b
 					Trabalho de Web3
 
 
@@ -379,4 +382,7 @@ Caso o pagamento falhe, o sistema exibe mensagem de erro e orienta a tentar nova
 
 
 
+<<<<<<< HEAD
+>>>>>>> 7eac797fb8e31fd0e9b4c5c6dac6f487a20e9c7b
+=======
 >>>>>>> 7eac797fb8e31fd0e9b4c5c6dac6f487a20e9c7b
