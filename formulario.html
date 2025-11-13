@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscrição - Instituto Tamanduá</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+  <div class="header-content">
+    <div class="logo-container">
+      <img
+        src="https://static.wixstatic.com/media/e2a471_cdf70081ae5e4552b75ed5194ac58f1e~mv2.png/v1/fill/w_101,h_101,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logomarca%20Instituto%20Tamandu%C3%A1%20Fundo%20Transparente1.png"
+        alt="Logo Instituto Tamanduá"
+        class="logo"
+      />
+      <div class="title-container">
+        <h1>Instituto Tamanduá</h1>
+        <p>Pesquisa e conservação de tamanduás no brasil</p>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <nav>
+        <ul>
+          <li><a href="index.html#sobre">Sobre</a></li>
+          <li><a href="index.html#oficinas">Oficinas</a></li>
+          <li><a href="index.html#galeria">Galeria</a></li>
+        </ul>
+      </nav>
+      <a href="index.html" class="inscricao-btn">Início</a>
+    </div>
+  </div>
+</header>
+
+
+    <!-- Formulário -->
+    <main class="main-content">
+        <div class="form-container">
+            <h2>Inscrição</h2>
+            <form action="#" method="POST">
+                <label for="fname">Nome Completo:</label><br>
+                <input type="text" id="fname" name="nome" placeholder="Ex: José Ignacio da Silva" required><br>
+
+                <label for="fdata">Data de Nascimento:</label><br>
+                <input type="date" id="fdata" name="data_nascimento" required><br>
+
+                <label for="femail">Email:</label><br>
+                <input type="email" id="femail" name="email" placeholder="Ex: fulano@gmail.com" required><br>
+
+                <label for="ftel">Telefone:</label><br>
+                <input type="tel" id="ftel" name="telefone" placeholder="Ex: (21) 99999-9999" required><br>
+
+                <label for="finstagram">Instagram:</label><br>
+                <input type="text" id="finstagram" name="instagram" placeholder="Ex: @usuario"><br>
+
+                <input type="submit" class="btn" value="Enviar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

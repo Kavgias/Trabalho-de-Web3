@@ -1,0 +1,218 @@
+/* ==========================
+   Estilo completo do formulário
+   ========================== */
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0f7f1;
+  color: #1b1b1b;
+}
+
+/* ===== HEADER (igual ao da index) ===== */
+
+header {
+  background-color: #5c8164;
+  color: white;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Layout principal do header */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo e título */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+/* Títulos */
+.title-container h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.title-container p {
+  font-size: 0.9rem;
+  color: #eaeaea;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Navegação e botão */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #446b4d;
+}
+
+.inscricao-btn {
+  background-color: #f8f8f8;
+  color: #5c8164;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 25px;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.inscricao-btn:hover {
+  background-color: #dfeee2;
+}
+
+/* Ajuste para navegação */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+nav ul {
+  gap: 40px;
+  flex: 1;
+  justify-content: center;
+}
+
+/* ===== SEÇÃO PRINCIPAL ===== */
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px);
+  background: linear-gradient(
+    rgba(240, 247, 241, 0.9),
+    rgba(240, 247, 241, 0.9)
+  ),
+  url("fotos/mato.jpg") center/cover no-repeat;
+}
+
+/* ===== FORMULÁRIO ===== */
+
+.form-container {
+  background-color: #f5f5f5; /* tom acinzentado */
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 430px; /* um pouco menor */
+  margin: 30px;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #1b4332;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 20px;
+}
+
+/* ===== CAMPOS ===== */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #1b4332;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 0.95rem;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #74c69d;
+  box-shadow: 0 0 4px #74c69d;
+}
+
+/* ===== BOTÃO ===== */
+
+.btn {
+  background-color: #5c8164;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #446b4d;
+}
+
+/* ===== MENSAGEM DE RESULTADO ===== */
+
+center p {
+  background-color: #d8f3dc;
+  color: #1b4332;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
