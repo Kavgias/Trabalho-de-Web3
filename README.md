@@ -236,5 +236,7 @@ Fluxo Alternativo:
 
 Caso o pagamento falhe, o sistema exibe mensagem de erro e orienta a tentar novamente.
 
+Link para o site: http://127.0.0.1:5500/Trabalho-de-Web3-main/index.html
+
 
 
